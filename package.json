@@ -1,0 +1,35 @@
+{
+  "name": "yowl-context-rethink",
+  "version": "0.1.0",
+  "description": "Yowl context manager for rethinkdb",
+  "main": "index.js",
+  "scripts": {
+    "lint": "jshint index.js lib/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianbrunner/yowl-context-rethink.git"
+  },
+  "keywords": [
+    "chatbot",
+    "yowl"
+  ],
+  "author": "Brian Brunner (brian.brunner@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brianbrunner/yowl-context-rethink/issues"
+  },
+  "homepage": "https://github.com/brianbrunner/yowl-context-rethink#readme",
+  "dependencies": {
+    "thinky": "^2.2.8"
+  },
+  "devDependencies": {
+    "jshint": "latest",
+    "browserify": "latest",
+    "mocha": "latest"
+  },
+  "jshintConfig": {
+    "node": true,
+    "proto": true
+  }
+}
