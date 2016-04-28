@@ -1,6 +1,6 @@
 {
   "name": "yowl-context-rethink",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Yowl context manager for rethinkdb",
   "main": "index.js",
   "scripts": {
