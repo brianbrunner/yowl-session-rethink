@@ -5,6 +5,9 @@ module.exports = function(options) {
   require('./lib/thinky').init(options);
   var Session = require('./lib/session');
 
+  // Expose the underlying session model
+  this.session_model = module.exports.session_model = Session;
+
   return function (context, event, next) {
     // create unique id for the current platform/session combo
     var id = context._platform.name + "|" + context.sessionId;
