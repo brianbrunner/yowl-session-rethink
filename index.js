@@ -10,7 +10,7 @@ module.exports = function(options) {
 
   return function (context, event, next) {
     // create unique id for the current platform/session combo
-    var id = context._platform.name + "|" + context.sessionId;
+    var id = context.platform.name + "|" + context.sessionId;
     Session.getOrCreate(id, function(err, session) {
       if (err) {
         next(err);
