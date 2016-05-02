@@ -12,9 +12,9 @@ module.exports = function(options) {
       if (err) {
         next(err);
       } else {
-        context.merge(session.context);
+        context.mergeSession(session.data);
         next(null, function(context, event, next) {
-          session.context = context.dump();
+          session.data = context.dumpSession();
           session.save().then(function(session) {
             next();
           }).error(function(err) {
