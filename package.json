@@ -1,14 +1,14 @@
 {
-  "name": "yowl-context-rethink",
+  "name": "yowl-session-rethink",
   "version": "0.2.1",
-  "description": "Yowl context manager for rethinkdb",
+  "description": "Yowl session manager for rethinkdb",
   "main": "index.js",
   "scripts": {
     "lint": "jshint index.js lib/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/brianbrunner/yowl-context-rethink.git"
+    "url": "git+https://github.com/brianbrunner/yowl-session-rethink.git"
   },
   "keywords": [
     "chatbot",
@@ -17,9 +17,9 @@
   "author": "Brian Brunner (brian.brunner@gmail.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/brianbrunner/yowl-context-rethink/issues"
+    "url": "https://github.com/brianbrunner/yowl-session-rethink/issues"
   },
-  "homepage": "https://github.com/brianbrunner/yowl-context-rethink#readme",
+  "homepage": "https://github.com/brianbrunner/yowl-session-rethink#readme",
   "dependencies": {
     "thinky": "^2.2.8"
   },
